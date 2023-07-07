@@ -1,0 +1,735 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cute{
+  cursor: pointer;
+  color: blue;
+}
+#cute:hover{
+    color: red;
+}
+
+/* header start */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+header .left{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+header .left .left-logo{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+header .left .left-logo:hover{
+    transform: translateX(10px) translateY(-10px);
+    color: red;   
+}
+
+header .left .left-link ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+header .right{
+    font-size: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+header .right i:hover{
+    color: red;
+}
+
+header .right span{
+    margin-right: 20px;
+}
+
+/* header end */
+
+/* section start */
+
+section{
+    display: flex;
+    margin-top: 35px;
+}
+
+section .left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 150px;
+}
+
+section .left h1{
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+section .left p{
+    margin: 20px 0;
+}
+
+section .left .buttons button{
+    padding: 10px;
+    border: blue solid 1px;
+    color: blue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+section .left .buttons button:hover{
+    transform: scale(1.1);
+    border: 2px solid red;
+}
+
+section .left .buttons button:first-child{
+    background-color: blue;
+    color: white;
+}
+
+section .left p{
+    margin-top: 50px;
+}
+
+
+/* navbar start */
+
+.h1{
+    margin: 70px 0 50px 0;
+    margin-left: 150px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar .promotion-left{
+    width: 50%; 
+    margin-left: 180px;
+}
+
+.navbar .promotion-left p{
+    margin: 13px 0;
+}
+
+
+.navbar .promotion-left .ps{
+    margin: 40px 40px 20px 10px;  
+}
+.navbar .promotion-left .ps span{
+    margin-right: 30px;
+}
+
+.navbar .promotion-left img{
+    width: 450px;
+    height: 300px;
+}
+
+
+.navbar .promotion-right{
+    width: 50%; 
+    margin-left: 180px;
+}
+
+.navbar .promotion-right p{
+    margin: 13px 0;
+}
+
+
+.navbar .promotion-right .ps{
+    margin: 40px 40px 20px 10px;  
+}
+.navbar .promotion-right .ps span{
+    margin-right: 30px;
+}
+
+.navbar .promotion-right img{
+    width: 450px;
+    height: 300px;
+}
+
+.navbar2{
+    display: flex;
+}
+
+.navbar2 .left{
+    width: 50%; 
+    margin-left: 180px;
+}
+
+.navbar2 .left p{
+    margin: 13px 0;
+}
+
+.navbar2 .left .ps{
+    margin: 40px 40px 20px 10px;  
+}
+.navbar2 .left .ps span{
+    margin-right: 30px;
+}
+
+.navbar2 .left img{
+    width: 450px;
+    height: 300px;
+}
+
+.navbar2 .right{
+    width: 50%; 
+    margin-left: 180px;
+}
+
+.navbar2 .right p{
+    margin: 13px 0;
+}
+
+.navbar2 .right .ps{
+    margin: 40px 40px 20px 10px;  
+}
+.navbar2 .right .ps span{
+    margin-right: 30px;
+}
+
+.navbar2 .right img{
+    width: 450px;
+    height: 300px;
+}
+
+.pimport{
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+/* navbar end */
+
+/* nav start */
+
+nav div{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 150px;
+}
+
+nav div h1{
+    font-size: 55px;
+    margin-left: 60px;
+}
+nav div p{
+    margin-top: 50px;
+}
+
+nav img{
+    height: 650px;
+    width: 1350px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+/* nav end */
+
+/* more start */
+.more{
+    height: 500px;
+    margin-top: 120px;
+    padding-left: 180px;
+}
+
+.more .moreX{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.more .moreX {
+    border-bottom: 1px solid rgb(83, 206, 208);
+    width: 900px;
+    padding-bottom: 5px;
+}
+
+.more .moreX .s1{
+    margin-left: 700px;
+}
+.more .moreX .s2{
+    margin-left: 815px;
+}
+.more .moreX .s3{
+    margin-left: 690px;
+}
+.more .moreX .s4{
+    margin-left: 707px;
+}
+/* more end */
+
+/* color start */
+.color{
+    display: flex;
+    background-color: rgb(91, 168, 168);
+    justify-content: space-around;
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.color-left h1{
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+.color-left h4{
+    font-size: 30px;
+}
+
+.color-left h4 i{
+    margin-left: 22px;
+    font-size: 27px;
+}
+
+.right-one{
+    margin-bottom: 80px;
+}
+.right-one h1{
+    margin-bottom: 10px;
+}
+.up{
+    margin-left: 150px;
+    opacity: 0.6;
+}
+
+/* color end */
+
+
+/* meet start */
+
+.meet{
+    height: 800px;
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.meet h1{
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.meet img{
+    margin-top: 20px;
+    margin-left: 200px;
+    height:400px;
+    width: 1200px;
+}
+.meet div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.meet div p{
+    margin-left: 350px;
+    font-size: 20px;
+    text-align: center;
+}
+.meet div h2{
+    font-size: 30px;
+}
+
+.meet .clas{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+/* meet end */
+
+/* show start */
+.show{
+    display: flex;
+    height: 500px;
+    gap: 80px;
+    width: 1100px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.show-left{
+    display: flex;
+    flex-direction: column;
+}
+.show-middle{
+    display: flex;
+    flex-direction: column;
+}
+.show-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.show span{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.show img{
+    width: 300px;
+    height: 300px;
+}
+/* show end */
+
+/* card start */
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card img{
+    width: 650px;
+}
+.card .text{
+    margin-top: 115px;
+    margin-left: 50px;
+}
+.card .text h1{
+    margin-bottom: 30px;
+}
+.card .text span i{
+    margin-left: 10px;
+}
+
+/* card end */
+
+/* sales start */
+
+.sales{
+    display: flex;
+    margin-top: 110px;
+    justify-content: center;
+}
+.sales-left img{
+    height: 500px;
+    width: 400px;
+    margin-left: 150px;
+}
+
+.sales-right{
+    margin-left: 270px;
+}
+.sales-right h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.sales-right .img{
+    display: flex;
+}
+.sales-right .img h1{
+    margin-left: 27px;
+}
+.sales-right h3{
+    margin: 30px 0 30px 0;
+}
+.sales-right span{
+    opacity: 0.6;
+}
+.sales-right h4{
+    margin-top: 40px;
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+.sales-right .img2{
+    width: 200px;
+    margin-top: 45px;
+}
+.h2cs h2{
+    text-align: center;
+    margin-top: 80px;
+}
+/* sales end */
+
+/* black start */
+.black{
+    height: 470px;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 40px;
+    background-color: rgb(13, 6, 6);
+}
+.black .upp{
+    height: 50%;
+}
+.black .upp h1{
+    color: white;
+    font-size: 65px;
+    margin-bottom: 15px;
+
+}
+.black .upp span{
+    margin-right: 20px;
+}
+
+.black .down{
+    display: flex;
+}
+
+.black .down-left h2{
+    color: white;
+    font-size: 40px;
+}
+.black .down-left p{
+    margin:20px 0 20px 0 ;
+    color: white;
+}
+.frmbtn input{
+    padding: 7px 17px;
+
+}
+.frmbtn button{
+    padding: 7px 30px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.frmbtn button:hover{
+    background-color: red;
+    color: blue;
+}
+.down-left h5{
+    margin-top: 30px;
+    opacity: 0.6;
+    color: white;
+}
+.down-left h5 span{
+    color: blue;
+    cursor: pointer;
+}
+.down-right{
+    color: white;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.down-right i{
+    margin-right: 20px;
+}
+
+
+/* black end */
+
+/* resources start */
+.resources{
+    height: 470px;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+.resources h1{
+    font-size: 60px;
+}
+.resources .span1{
+    margin-top: 50px;
+    font-size: 16px;
+}
+.resources #cute{
+    margin-top: 60px;
+}
+.resources i{
+    margin-left: 10px;
+}
+.spnr{
+    margin-left: 90px;
+}
+/* resources end */
+
+/* footer start */
+
+.footer{
+    background-color: black;
+    width: 60%;
+    margin: auto;
+    height: 1300px;
+    color: white;
+}
+
+.footer p{
+   padding: 20px;
+   font-size: 10px;
+   opacity: 0.5;
+   border-bottom: white solid 1px;
+   margin: 0 30px;
+}
+.mid{
+    display: flex;
+}
+.mid .frs{
+    line-height: 40px;
+    margin-left: 85px;
+    font-size: 20px;
+}
+.mid .frs ul{
+    list-style: none;
+    margin-top: 25px;
+}
+.mid .frs ul li:first-child{
+    opacity: 0.6;
+}
+
+.last-high{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+    width: 83%;
+    margin: 0 auto;
+}
+.last-high .logo i{
+    margin-right: 10px;
+}
+.last-high .icons i{
+    margin-left: 10px;
+}
+.last-low{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    width: 83%;
+    margin: 0 auto;
+}
+.last-low .inc{
+    opacity: 0.6;
+}
+.last-low .liste ul{
+    list-style: none;
+    font-size: 20px;
+}
+.last-low .liste ul li{
+    margin-top: 25px;
+    text-align: right;
+}
+#serhat{
+    background-color: rgb(218, 141, 141);
+    margin: 20px auto;
+    text-align: center;
+      animation-name: animasyon;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animasyon {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    background-color: blue;
+  }
+  100% {
+    transform: scale(1);
+    background-color: red;
+  }
+}
+
+
+/* footer end */
+/* responsive start */
+@media screen and (max-width:920px){
+    .left-link{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    section{
+        display: flex;
+        flex-direction: column;
+        margin-left: 190px;
+    }
+   .navbar, .navbar2{
+    display: flex;
+    flex-direction: column;
+   }
+   nav div h1{
+     margin-left: 250px;
+   }
+   nav img{
+    width: 700px;
+   }
+  .color{
+    margin-left: 150px;
+    margin-bottom: 50px;
+    height: 580px;
+  }
+
+  .meet img{
+    width: 400px;
+  }
+  .meet div h2{
+    font-size: 19px;
+  }
+  .meet div p{
+    margin: auto;
+  }
+  #cute{
+    font-size: 28px;
+  }
+  .show img{
+    width: 220px;
+  }
+  .black{
+    height: 530px;
+  }
+  .black .upp h1{
+    font-size: 14px;
+  }
+  .black .down .down-left h2{
+    font-size: 14px;
+  }
+  .black .down-right i{
+    font-size: 14px;
+    display: flex;
+  }
+  #cute{
+    font-size: 18px;
+  }
+  .footer{
+    height: 800px;
+    overflow
+  }
+  .footer .frs ul li{
+    font-size: 11px;
+    line-height: 10px;
+  }
+  .last-low .liste ul li{
+    line-height: 10px;
+    font-size: 10px;
+  }
+  .sales{
+    display: flex;
+    flex-direction: column;
+  }
+  .sales .sales-right{
+    margin: auto;
+  }
+}
+/* responsive end */
